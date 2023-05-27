@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>HTML Avanzado</title>
+</head>
+<body>
+    <!--     ========   Tablas en HTML     ====
+Las tablas son es un conjunto de filas y columnas que continene información necesaria. Nos sirven para organizar y tener una mejor visibilidad de los elementos.
+        -Celda es la intersección entre una fila y columna que contiene informacipon necesaria.
+        En HTML definimos las celdas utilizando la etiqueta <td></td> table data
+
+        Filas Se definen con la etiqueta <tr></tr> table row
+        Encabezados Título que se refiere a la información que va  atener la tabla, se definen con la etiqueta <th></th>        (centrado y negritas)
+Para iniciar una tabla en HTML, se define la etiqueta <table></table> y se divide en dos partes:
+
+    Cabeza de tabla <thead></thead>
+        Cuerpo de la tabla <tbody></tbody>
+ 
+         Para agregrar un título a la tabla, utilizaremos la etiqueta <caption>
+-->
+      
+      <table>
+        <caption>Tabla de personas</caption>
+        <thead>
+
+           <tr> <!--Fila 1 -->
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>País</th>
+           </tr>
+        </thead>
+        <tbody>
+            <tr> <!--Fila 2 -->
+                <td>Hiram Navarro</td>
+                <td>23</td>
+                <td>México</td>
+            </tr>    
+            <tr><!--Fila 3 --> 
+                <td>Paulina Ensastiga</td>
+                <td>19</td>
+                <td>Portugal</td>
+            </tr>
+            <tr><!--Fila 4 -->
+                <td>Daniel Corona</td>
+                <td>22</td>
+                <td>Rusia</td>
+            </tr>
+            </tbody>
+
+            <!--Tablita 2
+        cerar una tabla donde muestres el nombre, el apellido del entrenador pokemon y su pokemon base
+        Tpitulo de la tabla-->
+        <br>
+        <br>
+
+      </table>
+      <caption>Tabla de pokemon</caption>
+      <thead>
+    <tr> <!--Maestro 1-->
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Pokemon</th>
+   </tr>
+    </thead>
+    <tbody>
+        <tr> <!--Maestro 1 -->
+        <td>Osvaldo</td>
+        <td>Morales</td>
+        <td><a href="https://www.pokemon.com/el/pokedex/totodile" target="_blank">Tottodile</a></td>
+    </tr>    
+    <tr><!--Maestro 2 --> 
+        <td>Nancy</td>
+        <td>Pérez</td>
+        <td>Moltres<img id="moltres" src="/Images/p146f333.png" alt="moltres"> </td>
+    </tr>
+    <tr><!--Maestro 3 -->
+        <td>Hiram</td>
+        <td>Navarro</td>
+        <td>Mew</td>
+    </tr>
+    <tr><!--Maestro 4 -->
+        <td>Kevin</td>
+        <td>Gonzáles</td>
+        <td>Mewtwo</td>
+    </tr>
+    </tbody>
+</table>
+
+<!--Instrucciones
+    Diseña un horario de clases de lunes a viernes con 3 horarios (8:00-9:00; 9:00- 10:00; 10:00- 11:00) Con las materias que gustes. Agrega estilos para que tu horario quede bonito
+-->
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<table id="Horario">
+    <caption>Horario de Clases</caption>
+    <thead>
+
+       <tr> <!--Fila 1 -->
+            <th>Materia </th>
+            <th>Día</th>
+            <th>Hora</th>
+       </tr>
+    </thead>
+    <tbody>
+        <tr> <!--Fila 2 -->
+            <td>Matemáticas</td>
+            <td>Lunes</td>
+            <td>8:00-9:00</td>
+        </tr>   
+        <tr> <!--Fila 3 -->
+            <td>Matemáticas</td>
+            <td>Martes</td>
+            <td>8:00-9:00</td>
+        </tr> 
+        <tr><!--Fila 4 --> 
+            <td>Inglés</td>
+            <td>Miercoles</td>
+            <td>9:00- 10:00</td>
+        </tr>
+        <tr> <!--Fila 5 -->
+            <td>Química</td>
+            <td>Jueves</td>
+            <td>8:00-9:00</td>
+        </tr>
+        <tr><!--Fila 6 -->
+            <td>Historia</td>
+            <td>Viernes</td>
+            <td>10:00- 11:00</td>
+        </tr>
+        </tbody>
+ 
+
+
+</body>
+</html>
