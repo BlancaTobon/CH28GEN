@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+
+body{
+    padding: 25%;
+    background-color: #8BACAA ;
+    color: #fff;
+    grid: auto;
+    
+}
+
+button{
+    font-size: 30px;
+    margin: 10px;
+    padding: 5px;
+    justify-content: center;
+    align-content:center;
+}

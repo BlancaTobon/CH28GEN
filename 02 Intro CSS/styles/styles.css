@@ -117,7 +117,9 @@ Si queremos que se repita solo horizontalmente, Utilizamos la propiedad backgrou
 Si queremos que se repita solo verticamente, utilizamos background-repeat:repeat-y
 
 
-body{
+body{.............
+
+    
     background-image:url(/assets/Togepi.webp);
     background-color: aquamarine;
     

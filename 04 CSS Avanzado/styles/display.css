@@ -1,0 +1,15 @@
+.inline{
+    display: inline;
+    font-size: 1.5rem;
+    height: 2000px;
+
+}
+
+.block{
+    display: block;
+
+}
+
+.none{
+    display: none;
+}
